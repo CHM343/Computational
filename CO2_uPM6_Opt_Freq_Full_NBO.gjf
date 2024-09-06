@@ -1,0 +1,15 @@
+%chk=CO2_uPM6_Opt_Freq_Full_NBO.chk
+#p opt=tight freq=raman upm6 guess=save pop=(hirshfeld,full,nbo)
+geom=connectivity polar
+
+CO2 uPM6 Opt Freq - Full - NBO
+
+0 1
+ C                  0.13562386    0.24412296    0.00000000
+ O                  1.39402386    0.24412296    0.00000000
+ O                 -1.12277614    0.24412296    0.00000000
+
+ 1 2 2.0 3 2.0
+ 2
+ 3
+

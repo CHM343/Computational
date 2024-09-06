@@ -1,0 +1,17 @@
+%nprocshared=8
+%mem=8GB
+%chk=CO2_DFT_WB97XD_apVTZ_Opt_Freq_Full_NBO.chk
+#p opt=tight freq=raman wb97xd/aug-cc-pvtz guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+CO2 DFT WB97XD aug-cc-pVTZ Opt Freq - Full - NBO
+
+0 1
+ C                  0.13562386    0.24412296    0.00000000
+ O                  1.39402386    0.24412296    0.00000000
+ O                 -1.12277614    0.24412296    0.00000000
+
+ 1 2 2.0 3 2.0
+ 2
+ 3
+
