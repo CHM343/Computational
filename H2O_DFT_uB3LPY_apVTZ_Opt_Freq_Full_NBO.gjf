@@ -1,0 +1,17 @@
+%nprocshared=8
+%mem=8GB
+%chk=H2O_DFT_uB3LPY_apVTZ_Opt_Freq_Full_NBO.chk
+#p opt=tight freq=raman ub3lyp/aug-cc-pvtz guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+H2O DFT uB3LPY aug-cc-pVTZ Opt Freq - Full - NBO
+
+0 1
+ O                 -0.31650431    0.44293078    0.00414228
+ H                  0.64349566    0.44317189    0.00414228
+ H                 -0.63673161    1.34794707    0.00414228
+
+ 1 2 1.0 3 1.0
+ 2
+ 3
+
