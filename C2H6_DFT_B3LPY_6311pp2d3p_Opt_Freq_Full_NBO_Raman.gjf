@@ -1,0 +1,27 @@
+%nprocshared=8
+%mem=8GB
+%chk=C2H6_DFT_B3LPY_6311pp2d3p_Opt_Freq_Full_NBO_Raman.chk
+#p opt=tight freq=raman b3lyp/6-311g(2d,3p) guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+Ethane DFT B3LPY aug-cc-pVTZ Opt Freq - Full - NBO
+
+0 1
+ C                 -0.08137433    0.28028919   -0.00000003
+ H                  0.27520018   -0.72854906    0.00004883
+ H                  0.27537826    0.78463122   -0.87365139
+ H                 -1.15137433    0.28038693   -0.00004884
+ C                  0.43196796    1.00624588    1.25740468
+ H                  1.50196795    1.00614814    1.25745349
+ H                  0.07539344    2.01508413    1.25735582
+ H                  0.07521536    0.50190385    2.13105604
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5 6 1.0 7 1.0 8 1.0
+ 6
+ 7
+ 8
+
