@@ -1,0 +1,21 @@
+%nprocshared=4
+%mem=4GB
+%chk=CH4_DFT_WB97XD_apVTZ_Opt_Freq_Full_NBO_Raman.chk
+#p opt=tight freq=raman wb97xd/aug-cc-pvtz guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+CH4 DFT B3LPY aug-cc-pVTZ Opt Freq - Full - NBO
+
+0 1
+ C                 -0.08137430    0.28028924    0.00000000
+ H                  0.27527997   -0.72852082    0.00000000
+ H                  0.27529857    0.78468769    0.87365134
+ H                  0.27529857    0.78468769   -0.87365134
+ H                 -1.15137430    0.28030240    0.00000000
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5
+
