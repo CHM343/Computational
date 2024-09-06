@@ -1,0 +1,13 @@
+%chk=O2_HF_6311pp2d3p_Opt_Freq_Full.chk
+#p opt freq=raman hf/6-311++g(2d,3p) guess=save pop=(hirshfeld,full)
+geom=connectivity polar
+
+O2 HF 6-311++g(2d,3p) Opt Freq - Full
+
+0 1
+ O                  1.55159112   -0.69786534   -0.02031144
+ O                  0.38999112   -0.69786534   -0.02031144
+
+ 1 2 2.0
+ 2
+
