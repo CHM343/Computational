@@ -1,0 +1,13 @@
+%chk=O2_DFT_B3LPY_apVTZ_Opt_Freq_Full.chk
+#p opt freq=raman b3lyp/aug-cc-pvtz guess=save pop=(hirshfeld,full)
+geom=connectivity polar
+
+O2 DFT B3LPY aug-cc-pVTZ Opt Freq - Full
+
+0 1
+ O                  1.55159112   -0.69786534   -0.02031144
+ O                  0.38999112   -0.69786534   -0.02031144
+
+ 1 2 2.0
+ 2
+
