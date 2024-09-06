@@ -1,0 +1,27 @@
+%nprocshared=12
+%mem=12GB
+%chk=r134a_DFT_B3LPY_apVTZ_Opt_Freq_Full_NBO.chk
+#p opt=tight freq b3lyp/aug-cc-pvtz guess=save pop=(hirshfeld,full,nbo)
+geom=connectivity polar
+
+R134a DFT B3LPY aug-cc-pVTZ Opt Freq - Full - NBO
+
+0 1
+ C                 -0.93128388    0.80470246    0.00000062
+ F                 -0.48136351    1.44115081    1.10227334
+ F                 -2.28128387    0.80462637   -0.00005298
+ C                 -0.41794154    1.53066369   -1.25740144
+ H                 -0.77454509    1.02621945   -2.13105464
+ H                 -0.77466507    2.53944926   -1.25744020
+ F                 -0.48121213   -0.46806438    0.00004952
+ F                  0.93205846    1.53073979   -1.25734784
+
+ 1 2 1.0 3 1.0 4 1.0 7 1.0
+ 2
+ 3
+ 4 5 1.0 6 1.0 8 1.0
+ 5
+ 6
+ 7
+ 8
+
