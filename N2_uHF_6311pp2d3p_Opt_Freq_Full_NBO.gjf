@@ -1,0 +1,13 @@
+%chk=N2_uHF_6311pp2d3p_Opt_Freq_Full_NBO.chk
+#p opt=tight freq=raman uhf/6-311++g(2d,3p) guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+N2 uHF 6-311++g(2d,3p) Opt Freq - Full - NBO
+
+0 1
+ N                  1.03978294    0.17179023    0.00000000
+ N                 -0.05221706    0.17179023    0.00000000
+
+ 1 2 3.0
+ 2
+
