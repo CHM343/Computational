@@ -1,0 +1,21 @@
+%nprocshared=10
+%mem=8GB
+%chk=r32_DFT_B3LPY_6311pp2d3p_Opt_Freq_Full_NBO.chk
+#p opt=tight freq b3lyp/6-311++g(2d,3p) guess=save
+pop=(hirshfeld,full,nbo) geom=connectivity polar
+
+R32 DFT B3LPY 6-311++g(2d,3p) Opt Freq - Full - NBO
+
+0 1
+ C                 -0.93128383    0.80470152    0.00000001
+ H                 -0.57462959   -0.20410855   -0.00000003
+ H                 -0.57461094    1.30910000   -0.87365131
+ F                 -0.48127601    1.44109203    1.10227043
+ F                 -2.28128383    0.80471814   -0.00000001
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5
+
