@@ -1,0 +1,13 @@
+%chk=O2_DFT_WB97XD_apVTZ_Opt_Freq_Full.chk
+#p opt freq=raman wb97xd/aug-cc-pvtz guess=save pop=(hirshfeld,full)
+geom=connectivity polar
+
+O2 DFT WB97XD aug-cc-pVTZ Opt Freq - Full
+
+0 1
+ O                  1.55159112   -0.69786534   -0.02031144
+ O                  0.38999112   -0.69786534   -0.02031144
+
+ 1 2 2.0
+ 2
+
