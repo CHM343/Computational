@@ -1,0 +1,20 @@
+%nprocshared=4
+%mem=4GB
+%chk=Difluoromethane_Opt_Freq_PM6_Gaussian16.chk
+#p opt freq=raman pm6 guess=save geom=connectivity polar
+
+R32 - difluoromethane
+
+0 1
+ C                  0.74358978    0.09743580    0.00000001
+ H                  1.10024403   -0.91137427   -0.00000003
+ H                  1.10026267    0.60183428   -0.87365131
+ F                  1.19359761    0.73382631    1.10227043
+ F                 -0.60641022    0.09745242   -0.00000001
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5
+
